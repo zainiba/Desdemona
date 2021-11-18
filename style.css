@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
+}
+
+.front1{
+  font-size: 60px;
+  font-family: 'Zilla Slab';
+  text-align:center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.front2{
+  font-family: 'Montserrat';
+  position: absolute;
+  text-align:center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.front3{
+  font-family: 'Montserrat';
+  position: absolute;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.state{
+  color: black;
+  font-family: 'Montserrat';
+  text-align:left;
+  text-indent: 25px;
+}
+h3{
+  font-family: 'Zilla Slab';
+  text-align:center;
+
+  }
+}
+button{
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 15px 25px;
+  cursor: pointer;
+/*   position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+}
+
+button:active {
+  box-shadow: 0 1px #666;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.grid-container{
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-gap: 0px;
+}
+
+.a {
+  grid-column: 1 / 5;
+  grid-row: 1 / 7;
+}
+.b {
+  grid-column: 5 / 9;
+  grid-row: 1 / 7;
+}
+.c {
+  grid-column: 9 / 13;
+  grid-row: 1 / 7;
+}
+
+@media (max-width: 880px) {
+  .a {
+    grid-column: 1 / 8;
+    grid-row: 1 / 7;
+  }
+  .b {
+    grid-column: 8 / 13;
+    grid-row: 1 / 4;
+  }
+  .c {
+    grid-column: 8 / 13;
+    grid-row: 4 / 7;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .a {
+    grid-column: 1 / 13;
+    grid-row: 1 / 5;
+  }
+  .b {
+    grid-column: 1 / 7;
+    grid-row: 5 / 7;
+  }
+  .c {
+    grid-column: 7 / 13;
+    grid-row: 5 / 7;
+  }
+}
+  /* Icon when the collapsible content is shown */
+  .btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+  }
+  /* Icon when the collapsible content is hidden */
+  .btn.collapsed:after {
+    content: "\e080";
+  }
