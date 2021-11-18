@@ -3,7 +3,7 @@ function showBuyNow() {
 }
 
 //this calls the function above, 3000 milliseconds is 3 seconds, adjust here to make it a longer interval
-setTimeout("showBuyNow()", 8700);
+setTimeout("showBuyNow()", 5);
 
 var str = "<h1 class=front1>My name is Desdemona</h1> <br><h3 class=front2>Intro blahbalblah</h3><br><br>",
     i = 0,
