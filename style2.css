@@ -55,6 +55,7 @@ p{
    right: 0;
    z-index: -1;
    overflow: hidden;
+  pointer-events:none !important;
 }
 #pos1{
   margin-top:85px;
