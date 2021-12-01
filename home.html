@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Desdemona</title>
-<link rel="stylesheet" href="style2.css" />
+  <title>Desdemona</title>
+  <link rel="stylesheet" href="style2.css" />
 
 </head>
+
 <body>
   <div id="bg">
-<div class="center">
-<iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/84f62119-5258-4736-866e-a9e905176eda">
-</iframe>
+    <div class="center">
+      <div class="floating1">
+        <div id="text">
+          <div id="pos1">
+            <p>There's so much to do</p>
+          </div>
+          <div id="pos2">
+            <p>Someone is watching me</p>
+          </div>
+        </div>
+      </div>
+      <div class="floating2">
+        <div id="text">
+          <div id="pos">
+            <p>I need to pray</p>
+            <div id="pos3">
+              <p>God is punishing me, I'm going to hell</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="floating3">
+        <div id="text">
+          <div id="pos4">
+            <p>The snakes are here because I've done bad things</p>
+          </div>
+          <div id="pos5">
+            <p>I don't take care of myself or the people who need me</p>
+          </div>
+        </div>
+      </div>
+      <div class="floating4">
+        <div id="text">
+          <div id="pos6">
+            <p>Everything is a blur</p>
+          </div>
+          <div id="pos7">
+            <p>I'm scared</p>
+          </div>
+        </div>
+      </div>
+      <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/84f62119-5258-4736-866e-a9e905176eda">
+      </iframe>
 
-</div>
-<script src="three.r119.min.js"></script>
-<script src="vanta.fog.min.js"></script>
-<script>
-VANTA.FOG({
-  el: "#bg",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: screen.height/1.2,
-  minWidth: screen.width,
-  highlightColor: 0x505052,
-  midtoneColor: 0x262b6e,
-  lowlightColor: 0x41728,
-  baseColor: 0x161618
-})
-</script>
+    </div>
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.fog.min.js"></script>
+    <script>
+      VANTA.FOG({
+        el: "#bg",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: screen.height / 1.2,
+        minWidth: screen.width,
+        highlightColor: 0x505052,
+        midtoneColor: 0x262b6e,
+        lowlightColor: 0x41728,
+        baseColor: 0x161618
+      })
+    </script>
 </body>
+
 </html>
